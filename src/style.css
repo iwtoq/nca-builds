@@ -1,0 +1,100 @@
+body {
+  font-family: Courier, monospace;
+
+  margin: 0;
+  background-color: rgb(238, 255, 252);
+}
+
+button, input, a {
+  font-family: inherit;
+  font-weight: 600;
+}
+
+input, a {
+  font-size: 1.75rem;
+  padding: 0 10px;
+  margin: 0;
+  width: 20rem;
+
+  border: 0;
+  background: 0;
+}
+
+a {
+  line-height: 2.5rem;
+  color: #0068ad;
+}
+
+input:focus {
+  outline: none;
+}
+
+.top-bar {
+  width: 100%;
+  padding: 8 0;
+  background-color: rgb(160, 238, 233);
+  border: 3px solid #88c9c4;
+  text-align: center;
+}
+
+.panel {
+  font-size: 1.5rem;
+  margin: 1rem 2rem;
+  border: 3px solid #88c9c4;
+  width: 20rem;
+
+  background-color: #a0eee9;
+}
+
+.logo {
+  image-rendering: pixelated;
+  height: 7%;
+}
+
+.platform-tabs {
+  margin: 2rem;
+}
+
+.platform-button-on {
+  font-size: 2rem;
+  padding: 5px 10px;
+  margin: 5px;
+  margin-left: 0;
+
+  border-radius: 0;
+  border: 3px solid #00bcbc;
+  background-color: #93dddd;
+}
+
+.platform-button-on:hover {
+  background-color: #9dd8d8;
+}
+
+.platform-button-on:active {
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+.platform-button-off {
+  font-size: 2rem;
+  padding: 5px 10px;
+  margin: 5px;
+  margin-left: 0;
+
+  border-radius: 0;
+  border: 3px solid #93dddd;
+  background-color: #bcdddd;
+}
+
+.platform-button-off:hover {
+  background-color: #b2dbdb;
+}
+
+.platform-button-off:active {
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+  border-color: #00bcbc;
+  background-color: #9dd8d8;
+}
