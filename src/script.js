@@ -70,7 +70,8 @@ function appendVersions(searchQuery) {
 			shownVersions++;
 
 			const linkElement = document.createElement("a");
-			linkElement.href = `builds/${currentPlatform}/${version}/Nameless Cat Architect.zip`;
+			const ext = currentPlatform == "Android" ? "apk" : "zip"
+			linkElement.href = `builds/${currentPlatform}/${version}/Nameless Cat Architect.${ext}`;
 			linkElement.textContent = version;
 
 			versionsPanel.appendChild(linkElement);
